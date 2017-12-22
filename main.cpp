@@ -1,17 +1,13 @@
-#include <iostream> 
-#include "header1.h" 
-#include "header2.h" 
-using namespace std; 
+#include <iostream>
+#include "header1.h"
+#include "header2.h"
+using namespace std;
+using namespace mac;
+using namespace nus;
 int main(){
-  cout << mac :: a << endl;
-  cout << nus :: b << endl;
-{
-using namespace mac; 
-foo;
-}
-{
-using namespace nus; 
-foo;
-}
-return 0;
+    cout << a << endl;
+    cout << b << endl;
+    using mac::foo;
+    foo();
+    return 0;
 }
