@@ -1,8 +1,10 @@
 namespace mac
 {
-int a = 5;
-void foo()
-{
-;
-}
+    using namespace std;
+    int a = 5;
+    int foo()
+        {
+            cout << "hallo";
+            return 0;
+        }
 }
