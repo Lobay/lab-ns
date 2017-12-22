@@ -1,8 +1,10 @@
-using namespace nus
+namespace nus
 {
-int b = 10;
-void foo()
-{
-;
-}
+    using namespace std;
+    int b = 10;
+    int foo()
+        {
+            cout << "bue";
+            return 0;
+        }
 }
